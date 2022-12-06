@@ -1,0 +1,246 @@
+{
+  "id": "f3e665a1-ed13-4b79-8f53-a15e61058ad8",
+  "version": "2.0",
+  "name": "418selenium",
+  "url": "http://ec2-54-89-124-234.compute-1.amazonaws.com:3000",
+  "tests": [{
+    "id": "25a172b3-d21b-44a2-a87a-34e875880698",
+    "name": "test test",
+    "commands": [{
+      "id": "c226dee3-6928-41eb-ad09-925a6d870e64",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5ee2473-13cf-4bbe-9ce1-30b90e2eaca9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1316x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0d67de1-ae40-4031-aac1-80dad8fc2d29",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Squidward')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75e94186-f1f1-4a6a-92ef-9b6094705af8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Squidward')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d37354ba-e95e-4a1b-970b-bfdbdf17b1ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a349dc-bd99-4495-9362-e1fb29756be9",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Kirk Cousins')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8cce3a2-907c-4478-8e28-51bff7f584bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Hi my name is Kirk, but the streets call me lil Kirko. I am a professional quarterback for the Minnesota Vikings, I am doing well becuase my team is not bad this year.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e40f7370-057b-4d4d-8ea6-7ca790d6a7a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Hi my name is Kirk, but the streets call me lil Kirko. I am a professional quarterback for the Minnesota Vikings, I am doing well becuase my team is not bad this year.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cde6ea59-fa07-4186-b29d-5383d12afcd9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Hi my name is Kirk, but the streets call me lil Kirko. I am a professional quarterback for the Minnesota Vikings, I am doing well becuase my team is not bad this year.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7d637dc-6c8e-4304-8a6e-cb327cb2ee6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Hi my name is Kirk, but the streets call me lil Kirko. I am a professional quarterback for the Minnesota Vikings, I am doing well becuase my team is not bad this year.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3ba509c0-180b-47da-b1cb-f867815b0ace",
+    "name": "real test",
+    "commands": [{
+      "id": "fa40b39d-69a5-4b16-9542-01879c057b45",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a122ab1-159f-4e45-842b-4eb6055f053f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1316x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0fb35f7-6839-4795-8ab7-288584c8ce11",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.container:nth-child(5) > img",
+      "targets": [
+        ["css=.container:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://s3418bucket.s3.amazonaws.com/legoat.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "e8a7a659-900d-4d66-92c6-6e42678158ab",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//img[contains(@src,'https://s3418bucket.s3.amazonaws.com/legoat.jpg')]",
+      "targets": [
+        ["css=.container:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://s3418bucket.s3.amazonaws.com/legoat.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18043b90-fc14-4c79-ac2e-fd428be10cbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Squidward')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee88570d-16bc-403c-95df-926b755a61a0",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//img[contains(@src,'https://s3418bucket.s3.amazonaws.com/legoat.jpg')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc8e6379-acd5-4767-aa28-d1c054da1003",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//img[contains(@src,'https://s3418bucket.s3.amazonaws.com/Squidward-color-Step-8_p1rjmu.jpg')]",
+      "targets": [
+        ["css=.container:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://s3418bucket.s3.amazonaws.com/Squidward-color-Step-8_p1rjmu.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5adbe7c2-5185-4ebe-9607-bb53da31fa24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42f25451-1d66-4c29-a658-107e39e7ce0e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//img[contains(@src,'https://s3418bucket.s3.amazonaws.com/kirko.jpg')]",
+      "targets": [
+        ["css=.container:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://s3418bucket.s3.amazonaws.com/kirko.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3def41-10cf-4982-a831-500157968fd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lebron')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "876c0a55-652b-4037-8cae-1b23375769aa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["25a172b3-d21b-44a2-a87a-34e875880698"]
+  }],
+  "urls": ["http://ec2-54-89-124-234.compute-1.amazonaws.com:3000/"],
+  "plugins": []
+}

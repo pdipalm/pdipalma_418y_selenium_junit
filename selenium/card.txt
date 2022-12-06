@@ -1,0 +1,14 @@
+		      ID:	0
+           Title:	Testing EC2 Project
+   Preconditions:	None
+      
+	  Test Steps:	1. Open the webpage at http://ec2-54-89-124-234.compute-1.amazonaws.com:3000/
+					2. Wait for img element to be present
+					3. Assert that the first image loaded is of lebron
+					4. Click button to 2nd profile
+					5. Assert that img is not lebron
+					6. Assert that img is squidward
+					7. Click button to 3rd profile
+					8. Assert that image is of kirk
+
+Expected results: 	All assertions should pass
